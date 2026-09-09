@@ -7,7 +7,7 @@ about:
   latestVersion: ""
   latestRelease: ""
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:38:16Z
+  collectedAt: 2026-09-09T19:18:34Z
 timeline:
   created: 2024-04-17
   lastCommit: 2026-05-14
@@ -80,7 +80,7 @@ total:
   commit: 11
 ---
 path: /home/runner/.x-repo/github.com/ngrok/ngrok
-collectedAt: 2026-09-09T05:38:16Z
+collectedAt: 2026-09-09T19:18:35Z
 loc:
   Markdown:
     code: 0
