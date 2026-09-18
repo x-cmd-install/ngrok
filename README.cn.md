@@ -2,8 +2,6 @@
 
 [English version](./README.md)
 
-Public feedback discussions for all ngrok products.
-
 ![ngrok](https://repo.x-cmd.io/ngrok.svg?lang=zh)
 
 ## 安装
@@ -15,27 +13,26 @@ x install ngrok
 ## 源代码
 
 - **上游仓库**: <https://github.com/ngrok/ngrok>
-- **官网**: <https://ngrok.com>
 - **许可证**: NOASSERTION
 
 ## 流行度
 
-- **Star**: 63 · **Fork**: 3 · **开放 issue**: 91 · **贡献者**: 9
+- **Star**: 0 · **Fork**: 0 · **开放 issue**: 0 · **贡献者**: 0
 
 ## 累计统计
 
-- **发布数**: 0 · **已合并 PR**: 4 · **开放 PR**: 0 · **已关闭 issue**: 65 · **开放 issue**: 26 · **提交数**: 11
+- **发布数**: 0 · **已合并 PR**: 0 · **开放 PR**: 0 · **已关闭 issue**: 0 · **开放 issue**: 0 · **提交数**: 0
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-18 | 0 | 0 | 0 | 0 | 1 | 0 |
-| last60d | 2026-07-19 | 0 | 0 | 0 | 0 | 3 | 0 |
-| 90d | 2026-06-19 | 0 | 0 | 0 | 0 | 4 | 0 |
-| last180d | 2026-03-21 | 0 | 1 | 0 | 3 | 5 | 1 |
-| 360d | 2025-09-22 | 0 | 1 | 0 | 9 | 11 | 1 |
-| last720d | 2024-09-27 | 0 | 4 | 0 | 37 | 20 | 8 |
+| 30d | 2026-08-19 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last60d | 2026-07-20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 90d | 2026-06-20 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last180d | 2026-03-22 | 0 | 0 | 0 | 0 | 0 | 0 |
+| 360d | 2025-09-23 | 0 | 0 | 0 | 0 | 0 | 0 |
+| last720d | 2024-09-28 | 0 | 0 | 0 | 0 | 0 | 0 |
 
 ## 改进这些数据
 
@@ -46,4 +43,4 @@ ngrok 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) �
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260917.yml` · 2026-09-17T05:44:53Z._
+_数据快照: `data/card/260918.yml` · 2026-09-18T05:35:15Z._
