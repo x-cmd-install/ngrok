@@ -2,8 +2,8 @@
   srcname: ngrok
   binname: ngrok
   visiblename: ngrok
-  version: 3.39.12
-  origversion: 3.39.12-1
+  version: 3.39.13
+  origversion: 3.39.13-1
   status: newest
   summary: A tunneling, reverse proxy for developing and understanding networked, HTTP services
   maintainers:
@@ -71,7 +71,7 @@
 - repo: homebrew_casks
   srcname: ngrok
   visiblename: ngrok
-  version: 3.39.12
+  version: 3.39.13
   origversion: null
   status: newest
   summary: Reverse proxy, secure introspectable tunnels to localhost
@@ -233,7 +233,7 @@
   subrepo: main
   binname: ngrok
   visiblename: ngrok
-  version: 3.39.12
+  version: 3.39.13
   origversion: null
   status: newest
   licenses:
