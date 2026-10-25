@@ -1,3 +1,29 @@
+- repo: scoop
+  subrepo: main
+  binname: ngrok
+  visiblename: ngrok
+  version: 3.39.13
+  origversion: null
+  status: newest
+  licenses:
+    - Freeware
+- repo: slackbuilds
+  srcname: network/ngrok
+  visiblename: network/ngrok
+  version: 3.39.7
+  origversion: null
+  status: outdated
+  maintainers:
+    - slackbuilds@dscp.org
+  categories:
+    - network
+- repo: homebrew_casks
+  srcname: ngrok
+  visiblename: ngrok
+  version: 3.39.13
+  origversion: null
+  status: newest
+  summary: Reverse proxy, secure introspectable tunnels to localhost
 - repo: aur
   srcname: ngrok
   binname: ngrok
@@ -68,13 +94,6 @@
     - MIT
   categories:
     - net-proxy
-- repo: homebrew_casks
-  srcname: ngrok
-  visiblename: ngrok
-  version: 3.39.13
-  origversion: null
-  status: newest
-  summary: Reverse proxy, secure introspectable tunnels to localhost
 - repo: liguros_stable
   srcname: net-proxy/ngrok-bin
   visiblename: net-proxy/ngrok-bin
@@ -164,7 +183,7 @@
 - repo: nix_unstable
   srcname: ngrok
   visiblename: ngrok
-  version: 3.39.10
+  version: 3.39.12
   origversion: null
   status: outdated
   summary: Allows you to expose a web server running on your local machine to the internet
@@ -229,25 +248,6 @@
     - pkg-go-maintainers@lists.alioth.debian.org
   categories:
     - misc
-- repo: scoop
-  subrepo: main
-  binname: ngrok
-  visiblename: ngrok
-  version: 3.39.13
-  origversion: null
-  status: newest
-  licenses:
-    - Freeware
-- repo: slackbuilds
-  srcname: network/ngrok
-  visiblename: network/ngrok
-  version: 3.39.7
-  origversion: null
-  status: outdated
-  maintainers:
-    - slackbuilds@dscp.org
-  categories:
-    - network
 - repo: t2
   srcname: ngrok
   visiblename: ngrok
