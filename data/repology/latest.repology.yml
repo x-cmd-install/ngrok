@@ -1,3 +1,27 @@
+- repo: nix_stable_24_05
+  srcname: ngrok
+  visiblename: ngrok
+  version: 3.9.0
+  origversion: null
+  status: outdated
+  summary: Allows you to expose a web server running on your local machine to the internet
+  maintainers:
+    - bobvanderlinden@gmail.com
+    - me@brod.es
+  licenses:
+    - Unfree
+- repo: nix_stable_24_11
+  srcname: ngrok
+  visiblename: ngrok
+  version: 3.18.1
+  origversion: null
+  status: outdated
+  summary: Allows you to expose a web server running on your local machine to the internet
+  maintainers:
+    - bobvanderlinden@gmail.com
+    - me@brod.es
+  licenses:
+    - Unfree
 - repo: aur
   srcname: ngrok
   binname: ngrok
@@ -101,30 +125,6 @@
     - MIT
   categories:
     - net-proxy
-- repo: nix_stable_24_05
-  srcname: ngrok
-  visiblename: ngrok
-  version: 3.9.0
-  origversion: null
-  status: outdated
-  summary: Allows you to expose a web server running on your local machine to the internet
-  maintainers:
-    - bobvanderlinden@gmail.com
-    - me@brod.es
-  licenses:
-    - Unfree
-- repo: nix_stable_24_11
-  srcname: ngrok
-  visiblename: ngrok
-  version: 3.18.1
-  origversion: null
-  status: outdated
-  summary: Allows you to expose a web server running on your local machine to the internet
-  maintainers:
-    - bobvanderlinden@gmail.com
-    - me@brod.es
-  licenses:
-    - Unfree
 - repo: nix_stable_25_05
   srcname: ngrok
   visiblename: ngrok
@@ -164,9 +164,9 @@
 - repo: nix_unstable
   srcname: ngrok
   visiblename: ngrok
-  version: 3.39.12
+  version: 3.39.13
   origversion: null
-  status: outdated
+  status: newest
   summary: Allows you to expose a web server running on your local machine to the internet
   maintainers:
     - bobvanderlinden@gmail.com
