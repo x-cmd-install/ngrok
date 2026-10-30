@@ -1,27 +1,3 @@
-- repo: nix_stable_24_05
-  srcname: ngrok
-  visiblename: ngrok
-  version: 3.9.0
-  origversion: null
-  status: outdated
-  summary: Allows you to expose a web server running on your local machine to the internet
-  maintainers:
-    - bobvanderlinden@gmail.com
-    - me@brod.es
-  licenses:
-    - Unfree
-- repo: nix_stable_24_11
-  srcname: ngrok
-  visiblename: ngrok
-  version: 3.18.1
-  origversion: null
-  status: outdated
-  summary: Allows you to expose a web server running on your local machine to the internet
-  maintainers:
-    - bobvanderlinden@gmail.com
-    - me@brod.es
-  licenses:
-    - Unfree
 - repo: aur
   srcname: ngrok
   binname: ngrok
@@ -79,6 +55,36 @@
     - jhixson@freebsd.org
   categories:
     - security
+- repo: raspbian_stable
+  subrepo: main
+  srcname: ngrok
+  binnames:
+    - ngrok-server
+    - ngrok-client
+  visiblename: ngrok
+  version: "1.6"
+  origversion: 1.6+dfsg-1
+  status: outdated
+  maintainers:
+    - bernat@debian.org
+    - pkg-go-maintainers@lists.alioth.debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
+  subrepo: main
+  srcname: ngrok
+  binnames:
+    - ngrok-server
+    - ngrok-client
+  visiblename: ngrok
+  version: "1.6"
+  origversion: 1.6+dfsg-1
+  status: outdated
+  maintainers:
+    - bernat@debian.org
+    - pkg-go-maintainers@lists.alioth.debian.org
+  categories:
+    - misc
 - repo: gentoo_ovl_guru
   srcname: net-proxy/ngrok-bin
   visiblename: net-proxy/ngrok-bin
@@ -125,6 +131,30 @@
     - MIT
   categories:
     - net-proxy
+- repo: nix_stable_24_05
+  srcname: ngrok
+  visiblename: ngrok
+  version: 3.9.0
+  origversion: null
+  status: outdated
+  summary: Allows you to expose a web server running on your local machine to the internet
+  maintainers:
+    - bobvanderlinden@gmail.com
+    - me@brod.es
+  licenses:
+    - Unfree
+- repo: nix_stable_24_11
+  srcname: ngrok
+  visiblename: ngrok
+  version: 3.18.1
+  origversion: null
+  status: outdated
+  summary: Allows you to expose a web server running on your local machine to the internet
+  maintainers:
+    - bobvanderlinden@gmail.com
+    - me@brod.es
+  licenses:
+    - Unfree
 - repo: nix_stable_25_05
   srcname: ngrok
   visiblename: ngrok
@@ -185,36 +215,6 @@
   licenses:
     - custom
 - repo: raspbian_oldstable
-  subrepo: main
-  srcname: ngrok
-  binnames:
-    - ngrok-server
-    - ngrok-client
-  visiblename: ngrok
-  version: "1.6"
-  origversion: 1.6+dfsg-1
-  status: outdated
-  maintainers:
-    - bernat@debian.org
-    - pkg-go-maintainers@lists.alioth.debian.org
-  categories:
-    - misc
-- repo: raspbian_stable
-  subrepo: main
-  srcname: ngrok
-  binnames:
-    - ngrok-server
-    - ngrok-client
-  visiblename: ngrok
-  version: "1.6"
-  origversion: 1.6+dfsg-1
-  status: outdated
-  maintainers:
-    - bernat@debian.org
-    - pkg-go-maintainers@lists.alioth.debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
   subrepo: main
   srcname: ngrok
   binnames:
