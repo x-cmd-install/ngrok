@@ -1,3 +1,20 @@
+- repo: chocolatey
+  binname: ngrok
+  visiblename: Ngrok Agent
+  version: 3.39.12
+  origversion: null
+  status: outdated
+  summary: ngrok secure introspectable tunnels to localhost.
+- repo: blackarch
+  srcname: ngrok
+  binname: ngrok
+  visiblename: ngrok
+  version: 3.33.1
+  origversion: 3.33.1-1
+  status: outdated
+  summary: A tunneling, reverse proxy for developing and understanding networked, HTTP services.
+  licenses:
+    - LicenseRef-custom
 - repo: aur
   srcname: ngrok
   binname: ngrok
@@ -10,23 +27,6 @@
     - brenekh@aur
   licenses:
     - LicenseRef-custom
-- repo: blackarch
-  srcname: ngrok
-  binname: ngrok
-  visiblename: ngrok
-  version: 3.33.1
-  origversion: 3.33.1-1
-  status: outdated
-  summary: A tunneling, reverse proxy for developing and understanding networked, HTTP services.
-  licenses:
-    - LicenseRef-custom
-- repo: chocolatey
-  binname: ngrok
-  visiblename: Ngrok Agent
-  version: 3.39.12
-  origversion: null
-  status: outdated
-  summary: ngrok secure introspectable tunnels to localhost.
 - repo: chocolatey
   binname: ngrok.portable
   visiblename: Ngrok (portable)
@@ -55,36 +55,6 @@
     - jhixson@freebsd.org
   categories:
     - security
-- repo: raspbian_stable
-  subrepo: main
-  srcname: ngrok
-  binnames:
-    - ngrok-server
-    - ngrok-client
-  visiblename: ngrok
-  version: "1.6"
-  origversion: 1.6+dfsg-1
-  status: outdated
-  maintainers:
-    - bernat@debian.org
-    - pkg-go-maintainers@lists.alioth.debian.org
-  categories:
-    - misc
-- repo: raspbian_testing
-  subrepo: main
-  srcname: ngrok
-  binnames:
-    - ngrok-server
-    - ngrok-client
-  visiblename: ngrok
-  version: "1.6"
-  origversion: 1.6+dfsg-1
-  status: outdated
-  maintainers:
-    - bernat@debian.org
-    - pkg-go-maintainers@lists.alioth.debian.org
-  categories:
-    - misc
 - repo: gentoo_ovl_guru
   srcname: net-proxy/ngrok-bin
   visiblename: net-proxy/ngrok-bin
@@ -215,6 +185,36 @@
   licenses:
     - custom
 - repo: raspbian_oldstable
+  subrepo: main
+  srcname: ngrok
+  binnames:
+    - ngrok-server
+    - ngrok-client
+  visiblename: ngrok
+  version: "1.6"
+  origversion: 1.6+dfsg-1
+  status: outdated
+  maintainers:
+    - bernat@debian.org
+    - pkg-go-maintainers@lists.alioth.debian.org
+  categories:
+    - misc
+- repo: raspbian_stable
+  subrepo: main
+  srcname: ngrok
+  binnames:
+    - ngrok-server
+    - ngrok-client
+  visiblename: ngrok
+  version: "1.6"
+  origversion: 1.6+dfsg-1
+  status: outdated
+  maintainers:
+    - bernat@debian.org
+    - pkg-go-maintainers@lists.alioth.debian.org
+  categories:
+    - misc
+- repo: raspbian_testing
   subrepo: main
   srcname: ngrok
   binnames:
